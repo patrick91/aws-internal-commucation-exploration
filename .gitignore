@@ -1,0 +1,11 @@
+lambda.zip
+.terraform
+.DS_Store
+.venv/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform*
+old_app/
+.mypy_cache
+node_modules
+.serverless

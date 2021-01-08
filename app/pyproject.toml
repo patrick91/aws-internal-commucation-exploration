@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Patrick Arminio <patrick.arminio@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = {extras = ["http2"], version = "^0.16.1"}
+"quickchart.io" = "^0.1.1"
+websockets = "^8.1"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.790"
+black = {version = "^20.8b1", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
